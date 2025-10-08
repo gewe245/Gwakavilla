@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gwakavilla Digital Printing - About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="About Gwakavilla Digital Printing — our mission, values and team delivering quality print services in Dar es Salaam.">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+                    <div class="logo">
+                    <img src="picture/gwakavilla.png" alt="Gwakavilla Logo">
+                    </div>
+                <div id="lang-switch" class="lang-switch">
+                    <label for="lang-select" class="sr-only">Language</label>
+                    <select id="lang-select" aria-label="Select language">
+                        <option value="en">English</option>
+                        <option value="sw">Kiswahili</option>
+                    </select>
+                </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="bar top"></span>
+                <span class="bar mid"></span>
+                <span class="bar bot"></span>
+            </button>
+                <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html" data-lang="nav_home">Home</a></li>
+                    <li><a href="about.html" data-lang="nav_about">About</a></li>
+                    <li><a href="services.html" data-lang="nav_services">Services</a></li>
+                    <li><a href="products.html" data-lang="nav_products">Products</a></li>
+                    <li><a href="contact.html" data-lang="nav_contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="menu-overlay" id="menu-overlay" aria-hidden="true"></div>
+
+    <main>
+    <section class="hero">
+                <div class="hero-content">
+                <h1 data-lang="about_h1">About Gwakavilla Digital Printing</h1>
+                <p data-lang="about_p">Learn about our mission, vision, and commitment to quality.</p>
+                <a href="#about-us" class="btn" data-lang="about_btn">Our Story</a>
+            </div>
+        </section>
+
+        <section class="section about" id="about-us">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-lang="about_journey_h2">Our Journey to Excellence</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3 data-lang="about_quality_h3">Committed to Quality and Speed</h3>
+                        <p data-lang="about_quality_p">Founded in 2010, Gwakavilla Digital Printing started with a single mission: to provide the highest quality printing services with unmatched turnaround times. Over the years, we have grown into a leading print house in Dar es Salaam, trusted by both large corporations and small businesses.</p>
+
+                        <h3 data-lang="about_values_h3">Our Core Values</h3>
+                        <p data-lang="about_values_p">We believe in Integrity, Customer Focus, and Innovation. Every project we undertake is handled with precision and care, ensuring that the final product not only meets but exceeds your expectations.</p>
+
+                        <a href="contact.html" class="btn" data-lang="about_cta">Get a Quote Today</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="picture/hero1.jpg" alt="Gwakavilla Team at the office" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+n    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3 data-lang="footer_brand">Gwakavilla Digital Printing</h3>
+                    <p data-lang="footer_desc">Your trusted partner for all digital and large format printing needs. Quality, speed, and precision guaranteed.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 data-lang="footer_quicklinks">Quick Links</h3>
+                        </script>
+                        <script src="lang.js"></script>
+                        <script src="main.js"></script>
+                            const menuToggle = document.getElementById('menu-toggle');
+                            const mainNav = document.getElementById('main-nav');
+                            const overlay = document.getElementById('menu-overlay');
+
+                            mainNav.classList.add('mobile-panel');
+
+                            function openMenu() {
+                                menuToggle.classList.add('open');
+                                menuToggle.setAttribute('aria-expanded', 'true');
+                                mainNav.classList.add('open');
+                                overlay.classList.add('show');
+                                overlay.setAttribute('aria-hidden', 'false');
+                            }
+                            function closeMenu() {
+                                menuToggle.classList.remove('open');
+                                menuToggle.setAttribute('aria-expanded', 'false');
+                                mainNav.classList.remove('open');
+                                overlay.classList.remove('show');
+                                overlay.setAttribute('aria-hidden', 'true');
+                            }
+
+                            menuToggle.addEventListener('click', function() {
+                                const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+                                if (expanded) closeMenu(); else openMenu();
+                            });
+                            overlay.addEventListener('click', closeMenu);
+                            document.querySelectorAll('nav a').forEach(link => { link.addEventListener('click', () => closeMenu()); });
+                        });
+                        </script>
+                    <h3 data-lang="footer_contactinfo">Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Mpanda Main Street, Katavi</li>
+                        <li><i class="fas fa-phone"></i> +255 673 251 102</li>
+                        <li><i class="fas fa-envelope"></i> info@gwakavilla.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p data-lang="copyright">&copy; 2023 Gwakavilla Digital Printing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lang.js"></script>
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menu-toggle');
+            const mainNav = document.getElementById('main-nav');
+            
+            menuToggle.addEventListener('click', function() {
+                mainNav.classList.toggle('active');
+            });
+            
+            // Close menu when clicking on a link
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mainNav.classList.remove('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

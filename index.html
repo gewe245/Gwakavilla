@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gwakavilla Digital Printing - Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Gwakavilla Digital Printing — high-quality digital & large format printing in Dar es Salaam. Contact us for quotes and design services.">
+  
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+        <div class="logo">
+        <img src="picture/gwakavilla.png" data-lang-alt="logo_alt" alt="Gwakavilla Logo">
+      </div>
+      <div id="lang-switch" class="lang-switch">
+        <select id="lang-select" aria-label="Select language">
+          <option value="en">English</option>
+          <option value="sw">Kiswahili</option>
+        </select>
+      </div>
+  <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar top"></span>
+        <span class="bar mid"></span>
+        <span class="bar bot"></span>
+      </button>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html" data-lang="nav_home">Home</a></li>
+          <li><a href="about.html" data-lang="nav_about">About</a></li>
+          <li><a href="services.html" data-lang="nav_services">Services</a></li>
+          <li><a href="products.html" data-lang="nav_products">Products</a></li>
+          <li><a href="contact.html" data-lang="nav_contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="menu-overlay" id="menu-overlay" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg active">
+          <img src="picture/hero1.jpg" data-lang-alt="hero_img_1" alt="Printing Machinery">
+        </div>
+        <div class="hero-bg">
+          <img src="picture/hero2.jpg" data-lang-alt="hero_img_2" alt="Roller Banners">
+        </div>
+        <div class="hero-bg">
+          <img src="picture/hero3.jpg" data-lang-alt="hero_img_3" alt="Branding Materials">
+      </div>
+      <div class="hero-content">
+  <h1 data-lang="hero_h1">Your Vision, Printed to Perfection</h1>
+  <p data-lang="hero_p">High-quality digital printing solutions for your business and personal needs.</p>
+  <a href="#services" class="btn" data-lang="hero_btn">Explore Services</a>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-title">
+          <h2 data-lang="services_h2">Our Core Services</h2>
+          <p data-lang="services_p">We bring your ideas to life with speed, quality, and precision.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="picture/digital.png" alt="Digital Printing" loading="lazy">
+            </div>
+            <div class="service-content">
+              <h3 data-lang="service_digital_title">Digital Printing</h3>
+              <p data-lang="service_digital_desc">Fast turnaround for flyers, brochures, and custom documents.</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-image">
+              <img src="picture/design.jpg" alt="Graphic Design" loading="lazy">
+            </div>
+            <div class="service-content">
+              <h3 data-lang="service_design_title">Graphic Design</h3>
+              <p data-lang="service_design_desc">Professional design services to make your materials stand out.</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-image">
+              <img src="picture/large1.jpg" alt="Large Format Printing" loading="lazy">
+            </div>
+            <div class="service-content">
+              <h3 data-lang="service_large_title">Large Format</h3>
+              <p data-lang="service_large_desc">Banners, posters, and signage for maximum impact.</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-title" style="margin-top: 50px;">
+            <a href="services.html" class="btn" data-lang="services_view">View All Services</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products" id="products">
+      <div class="container">
+        <div class="section-title">
+          <h2 data-lang="products_h2">Our Products</h2>
+          <p data-lang="products_p">Explore our range of high-quality printing products</p>
+        </div>
+
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <div class="product-slider">
+                <img src="picture/card1.jpg" data-lang-alt="prod_card1_alt" alt="Business Cards" class="active" loading="lazy">
+                <img src="picture/card2.jpg" alt="Business Cards" loading="lazy">
+                <img src="picture/card3.jpg" alt="Business Cards" loading="lazy">
+                <img src="picture/card4.jpg" alt="Business Cards" loading="lazy">
+              </div>
+            </div>
+              <div class="product-content">
+                <h3 data-lang="product_business_cards_title">Business Cards</h3>
+                <p data-lang="product_business_cards_desc">Premium quality business cards that make a lasting impression.</p>
+              </div>
+          </div>
+          <div class="product-card rollup">
+            <div class="product-image">
+              <div class="product-slider">
+                <img src="picture/rollup1.jpg" data-lang-alt="prod_rollup1_alt" alt="Roll-up Banner" class="active img-contain" loading="lazy">
+                <img src="picture/rollup2.jpg" alt="Roll-up Banner" class="img-contain" loading="lazy">
+                 <img src="picture/rollup3.jpg" alt="Roll-up Banner" class="img-contain" loading="lazy">
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 data-lang="product_rollup_title">Roll-up Banners</h3>
+              <p data-lang="product_rollup_desc">Portable and durable solutions for exhibitions and events.</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <div class="product-slider">
+                <img src="picture/bronchure4.jpg" data-lang-alt="prod_brochure_alt" alt="Flyers and Brochures" class="active">
+                <img src="picture/Brochure.jpg" alt="Flyers and Brochures">
+                <img src="picture/bronchure1.jpg" alt="Flyers and Brochures">
+                <img src="picture/bronchure2.jpg" alt="Flyers and Brochures">
+                <img src="picture/bronchure3.jpg" alt="Flyers and Brochures">
+
+
+
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 data-lang="product_flyers_title">Flyers & Brochures</h3>
+              <p data-lang="product_flyers_desc">Eye-catching marketing materials for your business.</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <div class="product-slider">
+                <img src="picture/mugs2.jpg" data-lang-alt="prod_mugs2_alt" alt="Mug Printing" class="active">
+                <img src="picture/mugs3.jpg" alt="Mug Printing">
+                <img src="picture/mugs1.jpg" alt="Mug Printing">
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 data-lang="product_mugs_title">Custom Mugs</h3>
+              <p data-lang="product_mugs_desc">Personalized mugs perfect for gifts or corporate branding.</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <div class="product-slider">
+                <img src="picture/t-shirt1.jpg" data-lang-alt="prod_tshirt1_alt" alt="T-Shirt Printing" class="active">
+                <img src="picture/t-shirt4.jpg" alt="T-Shirt Printing">
+                 <img src="picture/t-shirt3.jpg" alt="T-Shirt Printing">
+                 
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 data-lang="product_tshirt_title">T-Shirt Printing</h3>
+              <p data-lang="product_tshirt_desc">High-quality apparel printing for events or uniforms.</p>
+            </div>
+          </div>
+          <div class="product-card awards">
+            <div class="product-image">
+              <div class="product-slider">
+                <img src="picture/award1.jpg" data-lang-alt="prod_award1_alt" alt="Awards and Trophies" class="active img-contain" loading="lazy">
+                <img src="picture/award2.jpg" alt="Awards and Trophies" class="img-contain" loading="lazy">
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 data-lang="product_awards_title">Awards & Trophies</h3>
+              <p data-lang="product_awards_desc">Custom awards to recognize achievements and milestones.</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <div class="product-slider">
+                <img src="picture/id1.jpg" data-lang-alt="prod_id1_alt" alt="Identification Cards" class="active" loading="lazy">
+                <img src="picture/id2.jpg" alt="Identification Cards" loading="lazy">
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 data-lang="product_id_title">Identification Cards</h3>
+              <p data-lang="product_id_desc">Professional ID card printing for businesses and institutions.</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <div class="product-slider">
+                <img src="picture/document1.jpg" data-lang-alt="prod_document1_alt" alt="Certificates" class="active" loading="lazy">
+                <img src="picture/document1.jpg" alt="Certificates" loading="lazy">
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 data-lang="product_certificates_title">Certificates</h3>
+              <p data-lang="product_certificates_desc">High-quality printed certificates and diplomas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-title" style="margin-top: 50px;">
+          <a href="products.html" class="btn" data-lang="products_view">View All Products</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h3 data-lang="footer_brand">Gwakavilla Digital Printing</h3>
+          <p data-lang="footer_desc">Your trusted partner for all digital and large format printing needs. Quality, speed, and precision guaranteed.</p>
+        </div>
+        
+        <div class="footer-col">
+          <h3 data-lang="footer_quicklinks">Quick Links</h3>
+          <ul>
+            <li><a href="about.html" data-lang="nav_about">About Us</a></li>
+            <li><a href="services.html" data-lang="nav_services">Our Services</a></li>
+            <li><a href="products.html" data-lang="nav_products">Products</a></li>
+            <li><a href="contact.html" data-lang="nav_contact">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3 data-lang="footer_popular">Popular Services</h3>
+          <ul>
+            <li><a href="#" data-lang="product_business_cards_title">Business Cards</a></li>
+            <li><a href="#" data-lang="product_rollup_title">Roll-up Banners</a></li>
+            <li><a href="#" data-lang="product_tshirt_title">T-Shirt Printing</a></li>
+            <li><a href="#" data-lang="service_design_title">Graphic Design</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3 data-lang="footer_contactinfo">Contact Info</h3>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> 123 Mpanda Main Street, Katavi</li>
+            <li><i class="fas fa-phone"></i> +255 673 251 102</li>
+            <li><i class="fas fa-envelope"></i> info@gwakavilla.com</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        <p data-lang="copyright">&copy; 2023 Gwakavilla Digital Printing. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="lang.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

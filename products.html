@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gwakavilla Digital Printing - Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Products catalogue for Gwakavilla Digital Printing — business cards, banners, apparel, IDs, awards and more.">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+                            <div class="logo">
+                                <img src="picture/gwakavilla.png" alt="Gwakavilla Logo">
+                            </div>
+                            <div class="lang-switch">
+                                <select id="lang-select" aria-label="Select language">
+                                    <option value="en">English</option>
+                                    <option value="sw">Kiswahili</option>
+                                </select>
+                            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="bar top"></span>
+                <span class="bar mid"></span>
+                <span class="bar bot"></span>
+            </button>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html" data-lang="nav_home">Home</a></li>
+                    <li><a href="about.html" data-lang="nav_about">About</a></li>
+                    <li><a href="services.html" data-lang="nav_services">Services</a></li>
+                    <li><a href="products.html" data-lang="nav_products">Products</a></li>
+                    <li><a href="contact.html" data-lang="nav_contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="menu-overlay" id="menu-overlay" aria-hidden="true"></div>
+
+        <main>
+    <section class="hero">
+                <div class="hero-content">
+                <h1 data-lang="hero_h1">Your Vision, Printed to Perfection</h1>
+                <p data-lang="hero_p">High-quality digital printing solutions for your business and personal needs.</p>
+                <a href="#products-list" class="btn" data-lang="hero_btn">Explore Services</a>
+            </div>
+        </section>
+
+        <section class="section products" id="products-list">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-lang="products_h2">Our Products</h2>
+                    <p data-lang="products_view">View All Products</p>
+                </div>
+                
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-slider">
+                                <img src="picture/card1.jpg" alt="Business Cards" class="active">
+                                <img src="picture/card2.jpg" alt="Business Cards">
+                                <img src="picture/card3.jpg" alt="Business Cards">
+                                <img src="picture/card4.jpg" alt="Business Cards">
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_business_cards_title">Business Cards</h3>
+                            <p data-lang="product_business_cards_desc">Premium quality business cards that make a lasting impression.</p>
+                        </div>
+                    </div>
+                    <div class="product-card rollup">
+                        <div class="product-image">
+                            <div class="product-slider">
+                                <img src="picture/rollup1.jpg" alt="Roll-up Banner" class="active img-contain" loading="lazy">
+                                <img src="picture/rollup2.jpg" alt="Roll-up Banner" class="img-contain" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_rollup_title">Roll-up Banners</h3>
+                            <p data-lang="product_rollup_desc">Portable and durable solutions for exhibitions and events.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-slider">
+                                <img src="picture/bronchure1.jpg" alt="Flyers and Brochures" class="active">
+                                <img src="picture/bronchure3.jpg" alt="Flyers and Brochures">
+                                <img src="picture/poster1.jpg" alt="Flyers and Brochures">
+                                <img src="picture/poster2.jpg" alt="Flyers and Brochures">
+                                
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_flyers_title">Flyers & Brochures</h3>
+                            <p data-lang="product_flyers_desc">Eye-catching marketing materials for your business.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-slider">
+                                <img src="picture/mugs1.jpg" alt="Mug Printing" class="active">
+                                <img src="picture/mugs2.jpg" alt="Mug Printing">
+                                <img src="picture/mugs3.jpg" alt="Mug Printing">
+                                <img src="picture/mugs4.jpg" alt="Mug Printing">
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_mugs_title">Custom Mugs</h3>
+                            <p data-lang="product_mugs_desc">Personalized mugs perfect for gifts or corporate branding.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-slider">
+                                <img src="picture/t-shirt1.jpg" alt="T-Shirt Printing" class="active">
+                                 <img src="picture/t-shirt3.jpg" alt="T-Shirt Printing">
+                                <img src="picture/t-shirt4.jpg" alt="T-Shirt Printing">
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_tshirt_title">T-Shirt Printing</h3>
+                            <p data-lang="product_tshirt_desc">High-quality apparel printing for events or uniforms.</p>
+                        </div>
+                    </div>
+                    <div class="product-card awards">
+                        <div class="product-image">
+                            <div class="product-slider">
+                                <img src="picture/award1.jpg" alt="Awards and Trophies" class="active img-contain" loading="lazy">
+                                <img src="picture/award2.jpg" alt="Awards and Trophies" class="img-contain" loading="lazy">
+                                <img src="picture/award3.jpg" alt="Awards and Trophies" class="img-contain" loading="lazy">
+                                <img src="picture/award4.jpg" alt="Awards and Trophies" class="img-contain" loading="lazy">
+
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_awards_title">Awards & Trophies</h3>
+                            <p data-lang="product_awards_desc">Custom awards to recognize achievements and milestones.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-slider">
+                                <img src="picture/id1.jpg" alt="Identification Cards" class="active" loading="lazy">
+                                <img src="picture/id2.jpg" alt="Identification Cards" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_id_title">Identification Cards</h3>
+                            <p data-lang="product_id_desc">Professional ID card printing for businesses and institutions.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-slider">
+                                <img src="picture/certificate 1.jpg" alt="Certificates" class="active">
+                                <img src="picture/certificate 2.jpg" alt="Certificates">
+                                <img src="picture/certificate 3.jpg" alt="Certificates">
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_certificates_title">Certificates</h3>
+                            <p data-lang="product_certificates_desc">High-quality printed certificates and diplomas.</p>
+                        </div> 
+                    </div> 
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="picture/poster1.jpg" alt="Posters and Banners" loading="lazy">
+                            <img src="picture/banner1.jpg" alt="Posters and Banners" loading="lazy">
+                            <img src="picture/poster2.jpg" alt="Posters and Banners" loading="lazy">
+                             <img src="picture/banners.jpg" alt="Posters and Banners" loading="lazy">
+                             
+
+
+
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_posters_title">Posters & Banners</h3>
+                            <p data-lang="product_posters_desc">Large format prints for advertising and displays.</p>
+                        </div>
+                    </div>
+                    <!-- New product additions -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="picture/poster2.jpg" alt="Stickers and Labels" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_stickers_title">Stickers & Labels</h3>
+                            <p data-lang="product_stickers_desc">Custom stickers and labels for packaging, branding, and promotions.</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="picture/card1.jpg" alt="Calendars" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_calendars_title">Calendars</h3>
+                            <p data-lang="product_calendars_desc">Personalized and corporate calendars for year-round visibility.</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="picture/mugs1.jpg" alt="Corporate Gifts" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_gifts_title">Corporate Gifts</h3>
+                            <p data-lang="product_gifts_desc">Branded corporate gifts and promotional items to delight clients and staff.</p>
+                        </div>
+                    </div>
+                </div> <!-- .products-grid -->
+            </div> <!-- .container -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3 data-lang="footer_brand">Gwakavilla Digital Printing</h3>
+                    <p data-lang="footer_desc">Your trusted partner for all digital and large format printing needs. Quality, speed, and precision guaranteed.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 data-lang="footer_quicklinks">Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html" data-lang="nav_about">About Us</a></li>
+                        <li><a href="services.html" data-lang="nav_services">Our Services</a></li>
+                        <li><a href="products.html" data-lang="nav_products">Products</a></li>
+                        <li><a href="contact.html" data-lang="nav_contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 data-lang="footer_popular">Popular Services</h3>
+                    <ul>
+                        <li><a href="#">Business Cards</a></li>
+                        <li><a href="#">Roll-up Banners</a></li>
+                        <li><a href="#">T-Shirt Printing</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 data-lang="footer_contactinfo">Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Mpanda Main Street, Katavi</li>
+                        <li><i class="fas fa-phone"></i> +255 673 251 102</li>
+                        <li><i class="fas fa-envelope"></i> info@gwakavilla.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p data-lang="copyright">&copy; 2023 Gwakavilla Digital Printing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+        <script src="lang.js"></script>
+        </script>
+        document.addEventListener('DOMContentLoaded', function() {
+        <script src="main.js"></script>
+            const menuToggle = document.getElementById('menu-toggle');
+            const mainNav = document.getElementById('main-nav');
+            const overlay = document.getElementById('menu-overlay');
+
+            mainNav.classList.add('mobile-panel');
+            function openMenu() { menuToggle.classList.add('open'); menuToggle.setAttribute('aria-expanded','true'); mainNav.classList.add('open'); overlay.classList.add('show'); overlay.setAttribute('aria-hidden','false'); }
+            function closeMenu() { menuToggle.classList.remove('open'); menuToggle.setAttribute('aria-expanded','false'); mainNav.classList.remove('open'); overlay.classList.remove('show'); overlay.setAttribute('aria-hidden','true'); }
+            menuToggle.addEventListener('click', function(){ const expanded = menuToggle.getAttribute('aria-expanded')==='true'; if (expanded) closeMenu(); else openMenu(); });
+            overlay.addEventListener('click', closeMenu);
+            document.querySelectorAll('nav a').forEach(link => { link.addEventListener('click', () => closeMenu()); });
+
+            // Hero crossfade slideshow (if present)
+            const slides = document.querySelectorAll('.hero-bg');
+            if (slides.length) {
+                let current = 0;
+                setInterval(() => {
+                    slides[current].classList.remove('active');
+                    current = (current + 1) % slides.length;
+                    slides[current].classList.add('active');
+                }, 5000);
+            }
+
+            // Product image sliders
+            const productSliders = document.querySelectorAll('.product-slider');
+            productSliders.forEach(slider => {
+                const images = Array.from(slider.querySelectorAll('img'));
+                if (images.length === 0) return;
+                if (!images.some(img => img.classList.contains('active'))) images[0].classList.add('active');
+                let currentImage = images.findIndex(img => img.classList.contains('active'));
+                const delay = 4200;
+                setInterval(() => {
+                    images[currentImage].classList.remove('active');
+                    currentImage = (currentImage + 1) % images.length;
+                    images[currentImage].classList.add('active');
+                }, delay);
+            });
+        });
+        </script>
+</body>
+</html>

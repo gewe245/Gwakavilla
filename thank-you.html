@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Thank you — Gwakavilla</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="section">
+    <div class="container">
+      <h1>Thank you!</h1>
+      <p>Your message was sent. Below is a copy of what you submitted:</p>
+      <div id="submitted-copy" style="background:#fff;padding:18px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.08);">
+      </div>
+      <p><a href="index.html">Return to home</a></p>
+    </div>
+  </main>
+  <script>
+    (function(){
+      try {
+        const raw = sessionStorage.getItem('lastContact');
+        if (!raw) return;
+        const data = JSON.parse(raw);
+        const container = document.getElementById('submitted-copy');
+        const html = `
+          <p><strong>Name:</strong> ${data.name || ''}</p>
+          <p><strong>Email:</strong> ${data.email || ''}</p>
+          <p><strong>Subject:</strong> ${data.subject || ''}</p>
+          <hr>
+          <p>${(data.message || '').replace(/\n/g,'<br>')}</p>
+        `;
+        container.innerHTML = html;
+        // clear it so refresh doesn't repeat
+        sessionStorage.removeItem('lastContact');
+      } catch(e) { console.warn(e); }
+    })();
+  </script>
+</body>
+</html>
