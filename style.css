@@ -414,6 +414,11 @@ footer {
 /* use this when we want full image visible */
 .img-contain { object-fit: contain !important; background:#fff; padding:8px; }
 
+/* Packaging design specific styling */
+.service-card.packaging-design .service-image img {
+  height: 160px; /* slightly smaller than default 180px */
+}
+
 /* Contact Section */
 .contact { background-color: var(--light); }
 .contact-container { display: flex; gap: 50px; }
