@@ -416,7 +416,7 @@ footer {
 
 /* Packaging design specific styling */
 .service-card.packaging-design .service-image img {
-  height: 130px; /* smaller size as requested */
+  height: 200px; /* adjusted to 200px as requested */
 }
 
 /* Contact Section */
