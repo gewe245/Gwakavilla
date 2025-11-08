@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <meta name="description" content="Products catalogue for Gwakavilla Digital Printing — business cards, banners, apparel, IDs, awards and more.">
+    <meta name="keywords" content="printing products Mpanda, business cards Katavi, banners Tanzania, t-shirt printing Mpanda, mugs Katavi, certificates Mpanda, uchapishaji bidhaa Mpanda, kadi za biashara Katavi">
+    <meta name="author" content="Gwakavilla Digital Printing">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://gwakavilla.com/products.html">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gwakavilla.com/products.html">
+    <meta property="og:title" content="Printing Products - Gwakavilla Digital Printing Mpanda">
+    <meta property="og:description" content="High-quality printed products including business cards, banners, t-shirts, mugs, certificates, and more in Katavi-Mpanda.">
+    <meta property="og:image" content="https://gwakavilla.com/picture/gwakavilla.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gwakavilla.com/products.html">
+    <meta property="twitter:title" content="Printing Products in Mpanda - Gwakavilla">
+    <meta property="twitter:description" content="Explore our range of custom printed products for businesses and individuals in Katavi-Mpanda.">
+    <meta property="twitter:image" content="https://gwakavilla.com/picture/gwakavilla.png">
 </head>
 <body>
     <header>
@@ -58,7 +74,7 @@
                 <div class="products-grid">
                     <div class="product-card">
                         <div class="product-image">
-                            <div class="product-slider">
+                             <div class="product-slider">
                                 <img src="picture/card1.jpg" alt="Business Cards" class="active">
                                 <img src="picture/card2.jpg" alt="Business Cards">
                                 <img src="picture/card3.jpg" alt="Business Cards">
@@ -210,6 +226,20 @@
                             <p data-lang="product_gifts_desc">Branded corporate gifts and promotional items to delight clients and staff.</p>
                         </div>
                     </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-slider">
+                                <img src="picture/signage.jpg" alt="Signage Making" class="active" loading="lazy">
+                                <img src="picture/signage2.JPG" alt="Signage Making" loading="lazy">
+                                <img src="picture/signage3.JPG" alt="Signage Making" loading="lazy">
+                                <img src="picture/signage4.JPG" alt="Signage Making" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3 data-lang="product_signage_title">Signage Making</h3>
+                            <p data-lang="product_signage_desc">Custom signage solutions for businesses, including outdoor and indoor signs for branding and visibility.</p>
+                        </div>
+                    </div>
                 </div> <!-- .products-grid -->
             </div> <!-- .container -->
         </section>
@@ -247,7 +277,7 @@
                     <h3 data-lang="footer_contactinfo">Contact Info</h3>
                     <ul>
                         <li><i class="fas fa-map-marker-alt"></i> 123 Mpanda Main Street, Katavi</li>
-                        <li><i class="fas fa-phone"></i> +255 673 251 102</li>
+                        <li><i class="fas fa-phone"></i> +255 673 251 102/+255 629 059 964</li>
                         <li><i class="fas fa-envelope"></i> info@gwakavilla.com</li>
                     </ul>
                 </div>
@@ -260,46 +290,6 @@
     </footer>
 
         <script src="lang.js"></script>
-        </script>
-        document.addEventListener('DOMContentLoaded', function() {
         <script src="main.js"></script>
-            const menuToggle = document.getElementById('menu-toggle');
-            const mainNav = document.getElementById('main-nav');
-            const overlay = document.getElementById('menu-overlay');
-
-            mainNav.classList.add('mobile-panel');
-            function openMenu() { menuToggle.classList.add('open'); menuToggle.setAttribute('aria-expanded','true'); mainNav.classList.add('open'); overlay.classList.add('show'); overlay.setAttribute('aria-hidden','false'); }
-            function closeMenu() { menuToggle.classList.remove('open'); menuToggle.setAttribute('aria-expanded','false'); mainNav.classList.remove('open'); overlay.classList.remove('show'); overlay.setAttribute('aria-hidden','true'); }
-            menuToggle.addEventListener('click', function(){ const expanded = menuToggle.getAttribute('aria-expanded')==='true'; if (expanded) closeMenu(); else openMenu(); });
-            overlay.addEventListener('click', closeMenu);
-            document.querySelectorAll('nav a').forEach(link => { link.addEventListener('click', () => closeMenu()); });
-
-            // Hero crossfade slideshow (if present)
-            const slides = document.querySelectorAll('.hero-bg');
-            if (slides.length) {
-                let current = 0;
-                setInterval(() => {
-                    slides[current].classList.remove('active');
-                    current = (current + 1) % slides.length;
-                    slides[current].classList.add('active');
-                }, 5000);
-            }
-
-            // Product image sliders
-            const productSliders = document.querySelectorAll('.product-slider');
-            productSliders.forEach(slider => {
-                const images = Array.from(slider.querySelectorAll('img'));
-                if (images.length === 0) return;
-                if (!images.some(img => img.classList.contains('active'))) images[0].classList.add('active');
-                let currentImage = images.findIndex(img => img.classList.contains('active'));
-                const delay = 4200;
-                setInterval(() => {
-                    images[currentImage].classList.remove('active');
-                    currentImage = (currentImage + 1) % images.length;
-                    images[currentImage].classList.add('active');
-                }, delay);
-            });
-        });
-        </script>
 </body>
 </html>
