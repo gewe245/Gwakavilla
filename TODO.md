@@ -1,6 +1,9 @@
-# TODO: Update Product-Card for Signage Making
+# TODO: Improve Service Images Appearance
 
 ## Steps to Complete:
-- [x] Update the `product-slider` in `products.html` to include `signage.jpg`, `signage2.JPG`, `signage3.JPG`, `signage4.JPG` (remove `signage1.JPG`).
-- [x] Add the same product card to the products section in `index.html`.
-- [ ] Verify the pages render correctly (e.g., run the server and check visually).
+- [x] Add onerror attributes to all service images in services.html for fallback to placeholder.png
+- [x] Update incorrect image paths (e.g., "machine.jpg" to "mashine.jpg", "award.jpg" to "award1.jpg")
+- [x] Ensure all service cards use consistent product-slider structure
+- [x] Enhance CSS styling for better image appearance in style.css
+- [ ] Test the services page to ensure images load properly and have good appearance
+- [ ] Verify slider functionality works for multi-image services
