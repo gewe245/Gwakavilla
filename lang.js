@@ -4,7 +4,7 @@
       nav_home: 'Home',
       nav_about: 'About',
       nav_services: 'Services',
-      nav_products: 'Products',
+      nav_products: 'Products',   
       nav_contact: 'Contact',
       hero_h1: 'Your Vision, Printed to Perfection',
       hero_p: 'High-quality digital printing solutions for your business and personal needs.',
@@ -14,7 +14,7 @@
   about_btn: 'Our Story',
   about_journey_h2: 'Our Journey to Excellence',
   about_quality_h3: 'Committed to Quality and Speed',
-  about_quality_p: 'Founded in 2010, Gwakavilla Digital Printing started with a single mission: to provide the highest quality printing services with unmatched turnaround times. Over the years, we have grown into a leading print house in Dar es Salaam, trusted by both large corporations and small businesses.',
+  about_quality_p: 'Founded in 2023, Gwakavilla Digital Printing started with a single mission: to provide the highest quality printing services with unmatched turnaround times. Over the years, we have grown into a leading print house in KATAVI-Mpanda, trusted by both large corporations and small businesses.',
   about_values_h3: 'Our Core Values',
   about_values_p: 'We believe in Integrity, Customer Focus, and Innovation. Every project we undertake is handled with precision and care, ensuring that the final product not only meets but exceeds your expectations.',
   about_cta: 'Get a Quote Today',
@@ -107,6 +107,8 @@
     product_calendars_desc: 'Personalized and corporate calendars for year-round visibility.',
     product_gifts_title: 'Corporate Gifts',
     product_gifts_desc: 'Branded corporate gifts and promotional items to delight clients and staff.',
+    product_signage_title: 'Signage Making',
+    product_signage_desc: 'Custom signage solutions for businesses, including outdoor and indoor signs for branding and visibility.',
       contact_h1: 'Contact Us',
       contact_btn: 'Send a Message',
       contact_getin_h2: 'Get in Touch',
@@ -116,14 +118,40 @@
       form_message_label: 'Message',
       form_submit: 'Send Message',
       contact_reach_h3: 'Reach Us Directly',
-      contact_phone: '+255 712 345678',
+      contact_phone: '+255 629 059 965',
+      contact_phone2: '+255 769 696 118',
+      contact_phone3: '+255 787 591 700',
       contact_email: 'info@gwakavilla.com',
       contact_hours: 'Mon - Fri: 8:00 AM - 5:00 PM',
       footer_quicklinks: 'Quick Links',
       footer_popular: 'Popular Services',
-      footer_contactinfo: 'Contact Info'
-      ,footer_desc: 'Your trusted partner for all digital and large format printing needs. Quality, speed, and precision guaranteed.'
-      ,copyright: '© 2023 Gwakavilla Digital Printing. All rights reserved.'
+      footer_contactinfo: 'Contact Info',
+      footer_desc: 'Your trusted partner for all digital and large format printing needs. Quality, speed, and precision guaranteed.',
+      copyright: '© 2023 Gwakavilla Digital Printing. All rights reserved.',
+      services_h2: 'Our Core Services',
+      services_p: 'We fulfill your ideas with speed, quality, and precision.',
+      services_view: 'View All Services',
+      service_digital_title: 'Digital Printing',
+      service_digital_desc: 'Fast printing of flyers, brochures, calendars, wedding materials, certificates, product labels, and photocopies.',
+      service_design_title: 'Graphic Design',
+      service_design_desc: 'Professional creative services to make your products unique.',
+      service_large_title: 'Large Format',
+      service_large_desc: 'Banners, posters, and signage for the best results.',
+      service_embroidery_title: 'Embroidery Machine',
+      service_embroidery_desc: 'Embroidery on T-shirts, caps, and printing of other clothes.',
+      service_cnc_title: 'CNC Engraving',
+      service_cnc_desc: 'Engraving services for custom designs on various materials.',
+      service_signage_title: 'Signage Making',
+      service_signage_desc: 'Indoor signs, door signs, outdoor signs, 3D signs, and pylons.',
+      service_welding_title: 'Welding',
+      service_welding_desc: 'Custom metal fabrication and welding for signage and structures.',
+      service_branding_title: 'Branding Services',
+      service_branding_desc: 'Vehicle wrapping, indoor and outdoor office branding.',
+      about_stats_h2: 'About Us',
+      about_summary: 'Gwakavilla Digital Printing provides high-quality printing services in KATAVI-Mpanda, trusted by businesses large and small.',
+      stat_clients: 'Happy Clients',
+      stat_projects: 'Projects Completed',
+      stat_years: 'Years in Business'
     },
     sw: {
       nav_home: 'Nyumbani',
@@ -131,15 +159,15 @@
       nav_services: 'Huduma',
       nav_products: 'Bidhaa',
       nav_contact: 'Mawasiliano',
-      hero_h1: 'Maono Yako, Yachapwe Kwa Ukamilifu',
+      hero_h1: 'Huduma bora, Zenye mwonekano mzuri',
       hero_p: 'Huduma za uchapishaji wa dijitali zenye ubora kwa biashara na matumizi binafsi.',
-      hero_btn: 'Gundua Huduma',
+      hero_btn: 'Fahamu huduma zetu',
   about_h1: 'Kuhusu Gwakavilla Uchapaji Dijitali',
   about_p: 'Jifunze kuhusu dhamira yetu, maono, na dhamira yetu kwa ubora.',
   about_btn: 'Hadithi Yetu',
   about_journey_h2: 'Safari Yetu ya Ustadi',
   about_quality_h3: 'Tayari kwa Ubora na Kasi',
-  about_quality_p: 'Iliyoko mwanzoni mwaka 2010, Gwakavilla Uchapaji Dijitali ilianzishwa kwa dhamira moja: kutoa huduma za uchapishaji za ubora wa juu kwa muda mfupi. Mwaka hadi mwaka tumekua kuwa kituo kinachoaminika cha uchapishaji Dar es Salaam, tukihudumia makampuni makubwa na biashara ndogo.',
+  about_quality_p: 'Gwakavilla Uchapaji Dijitali ilianzishwa kwa dhamira moja: kutoa huduma za uchapishaji za ubora wa juu kwa muda mfipi. Mwaka hadi mwaka tumekua kuwa kituo kinachoaminika cha uchapishaji KATAVI-Mpanda, tukihudumia makampuni makubwa na biashara ndogo.',
   about_values_h3: 'Maadili Yetu ya Msingi',
   about_values_p: 'Tunaamini katika Uadilifu, Kuweka Mteja Kitu Kati, na Ubunifu. Kila mradi tunaufanyia unafanyiwa kwa usahihi na uangalifu, kuhakikisha kuwa matokeo ya mwisho hayakidhi tu bali yanazidi matarajio yako.',
   about_cta: 'Pata Nukuu Sasa',
@@ -226,6 +254,8 @@
     product_calendars_desc: 'Kalenda za kibinafsi na za shirika kwa mwonekano wa mwaka mzima.',
     product_gifts_title: 'Zawadi za Kampuni',
     product_gifts_desc: 'Zawadi za kampuni zilizo na chapa na vitu vya uendelezaji kuwafurahisha wateja na wafanyakazi.',
+    product_signage_title: 'Utengenezaji wa Bango/Alama',
+    product_signage_desc: 'Suluhisho za alama za kawaida kwa biashara, ikiwemo alama za nje na ndani kwa uendelezaji na mwonekano.',
       contact_h1: 'Wasiliana Nasi',
       contact_btn: 'Tuma Ujumbe',
       contact_getin_h2: 'Wasiliana Nasi',
@@ -235,14 +265,47 @@
       form_message_label: 'Ujumbe',
       form_submit: 'Tuma Ujumbe',
       contact_reach_h3: 'Wasiliana Nasi Moja kwa Moja',
-      contact_phone: '+255 712 345678',
-      contact_email: 'info@gwakavilla.com',
+      contact_phone: '+255 629 059 965',
+      contact_phone2: '+255 769 696 118',
+      contact_phone3: '+255 787 591 700',
       contact_hours: 'Jumatatu - Ijumaa: 8:00 AM - 5:00 PM',
       footer_quicklinks: 'Viungo vya Haraka',
       footer_popular: 'Huduma Maarufu',
       footer_contactinfo: 'Taarifa za Mawasiliano',
       footer_desc: 'Mshirika wako anayeaminika kwa huduma zote za uchapishaji wa dijitali na ukubwa mkubwa. Ubora, kasi, na usahihi vinahakikishwa.',
-      copyright: '© 2023 Gwakavilla Digital Printing. Haki zote zimehifadhiwa.'
+      copyright: '© 2023 Gwakavilla Digital Printing. Haki zote zimehifadhiwa.',
+      services_h2: 'Huduma Zetu Kuu',
+      services_p: 'Tunatimiza mawazo yako kwa kasi, ubora na usahihi.',
+      services_view: 'Angalia Huduma Zote',
+      
+      service_digital_title: 'Uchapaji wa Kidijitali',
+      service_digital_desc: 'Uchapishaji wa haraka wa vipeperushi (flyers), vijitabu (brochures), kalenda, Harusi, vyeti, kadi za lebo za bidhaa na fotokopi.',
+      
+      service_design_title: 'Ubunifu wa Picha (Graphic Design)',
+      service_design_desc: 'Huduma za ubunifu wa kitaalamu ili kufanya bidhaa zako ziwe za kipekee.',
+      
+      service_large_title: 'Fomati Kubwa',
+      service_large_desc: 'Mabango, picha za matangazo (posters), na alama za matangazo (signage) kwa matokeo mazuri zaidi.',
+      
+      service_embroidery_title: 'Mashine ya Kudarizi',
+      service_embroidery_desc: 'Udarizi wa T-shirt, kofia (cape) na uchapishaji wa nguo zingine.',
+      
+      service_cnc_title: 'Uchongaji wa CNC (Engraving)',
+      service_cnc_desc: 'Huduma za uchongaji kwa miundo ya kawaida kwenye nyenzo mbalimbali.',
+      
+      service_signage_title: 'Utengenezaji wa Bango/Alama',
+      service_signage_desc: 'Alama za ndani, za Mlango, za Nje, Alama za 3D na nguzo (pylons).',
+      
+      service_welding_title: 'Uchomeleaji (Welding)',
+      service_welding_desc: 'Uchomeleaji wa chuma na uundaji wa miundo ya alama na miundo.',
+      
+      service_branding_title: 'Huduma za Uwekaji Chapa',
+      service_branding_desc: 'Uwekaji Chapa Kwenye Magari, Chapa za ndani na nje ya Ofisi',
+      about_stats_h2: 'Kuhusu Sisi',
+      about_summary: 'Gwakavilla Digital Printing hutoa huduma za uchapishaji za ubora wa juu huko KATAVI-Mpanda, zikiwa zinaaminika na biashara kubwa na ndogo.',
+      stat_clients: 'Wateja Wenye Furaha',
+      stat_projects: 'Miradi Iliyokamilika',
+      stat_years: 'Miaka katika Biashara'
     }
   };
 
@@ -289,6 +352,8 @@
       switchWrap.classList.add('active');
     }
 
+    // Dispatch custom event for language change to trigger re-animations
+    window.dispatchEvent(new CustomEvent('languageChanged'));
   }
 
   document.addEventListener('DOMContentLoaded', () => {

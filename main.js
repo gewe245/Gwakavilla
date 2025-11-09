@@ -6,8 +6,6 @@
     const overlay = document.getElementById('menu-overlay');
     if (!menuToggle || !mainNav || !overlay) return;
 
-    mainNav.classList.add('mobile-panel');
-
     function openMenu() {
       menuToggle.classList.add('open');
       menuToggle.setAttribute('aria-expanded', 'true');
@@ -62,9 +60,76 @@
     });
   }
 
+  let statsObserver = null;
+
+  function animateCounters() {
+    const counters = document.querySelectorAll('.counter');
+    counters.forEach(counter => {
+      const target = +counter.getAttribute('data-target');
+      const duration = 2000; // 2 seconds
+      const increment = target / (duration / 16); // 60fps
+      let current = 0;
+      const timer = setInterval(() => {
+        current += increment;
+        if (current >= target) {
+          counter.textContent = target + '+';
+          clearInterval(timer);
+        } else {
+          counter.textContent = Math.floor(current);
+        }
+      }, 16);
+    });
+  }
+
+  function createStatsObserver() {
+    const statsSection = document.querySelector('.about-stats');
+    if (!statsSection) return;
+
+    const counters = document.querySelectorAll('.counter');
+    if (statsObserver) {
+      statsObserver.disconnect();
+    }
+
+    statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounters();
+        }
+      });
+    }, { threshold: 0.5 });
+
+    statsObserver.observe(statsSection);
+  }
+
+  function resetStatsCounters() {
+    const counters = document.querySelectorAll('.counter');
+    counters.forEach(counter => {
+      counter.textContent = '+0';
+    });
+
+    const statsSection = document.querySelector('.about-stats');
+    if (statsSection) {
+      // If section is already in view, trigger animation immediately
+      const rect = statsSection.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        animateCounters();
+      }
+    }
+
+    createStatsObserver();
+  }
+
+  function setupStatsAnimation() {
+    createStatsObserver();
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
     setupMenu();
     setupHeroSlideshow();
     setupProductSliders();
+    setupStatsAnimation();
+
+    // Listen for language change to reset stats animation
+    window.addEventListener('languageChanged', resetStatsCounters);
   });
 })();

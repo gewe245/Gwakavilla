@@ -3,7 +3,7 @@
 #   cd 'C:\EXAMPLE\gwakavilla_refactored_website'; .\serve.ps1
 # This server listens on http://localhost:8000/ and serves files from the current directory.
 
-$prefix = 'http://localhost:8000/'
+$prefix = 'http://localhost:3000/'
 $root = Get-Location
 
 $mime = @{
