@@ -295,14 +295,16 @@ nav ul li a:hover {
 .product-card.rollup .product-image,
 .product-card.awards .product-image,
 .product-card.stickers .product-image,
-.product-card.calendars .product-image {
+.product-card.calendars .product-image,
+.product-card.posters .product-image {
   height: 200px;
 }
 
 .product-card.rollup .product-image img,
 .product-card.awards .product-image img,
 .product-card.stickers .product-image img,
-.product-card.calendars .product-image img {
+.product-card.calendars .product-image img,
+.product-card.posters .product-image img {
   object-fit: contain;
   background: #fafafa;
 }
