@@ -296,7 +296,8 @@ nav ul li a:hover {
 .product-card.awards .product-image,
 .product-card.stickers .product-image,
 .product-card.calendars .product-image,
-.product-card.posters .product-image {
+.product-card.posters .product-image,
+.product-card.business-cards .product-image {
   height: 200px;
 }
 
@@ -304,7 +305,8 @@ nav ul li a:hover {
 .product-card.awards .product-image img,
 .product-card.stickers .product-image img,
 .product-card.calendars .product-image img,
-.product-card.posters .product-image img {
+.product-card.posters .product-image img,
+.product-card.business-cards .product-image img {
   object-fit: contain;
   background: #fafafa;
 }
