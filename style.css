@@ -293,12 +293,14 @@ nav ul li a:hover {
 
 /* Special Product Cards */
 .product-card.rollup .product-image,
-.product-card.awards .product-image {
-  height: 280px;
+.product-card.awards .product-image,
+.product-card.stickers .product-image {
+  height: 200px;
 }
 
 .product-card.rollup .product-image img,
-.product-card.awards .product-image img {
+.product-card.awards .product-image img,
+.product-card.stickers .product-image img {
   object-fit: contain;
   background: #fafafa;
 }
